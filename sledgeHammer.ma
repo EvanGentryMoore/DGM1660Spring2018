@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: sledgeHammer.ma
-//Last modified: Tue, Jan 23, 2018 10:20:26 AM
+//Last modified: Tue, Jan 23, 2018 11:42:55 AM
 //Codeset: 1252
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "B1CB9E6C-4E02-AE3F-6DA4-AB85F0226372";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -8.4968573710713642 5.7787454650157075 -51.325354695099165 ;
-	setAttr ".r" -type "double3" 353.66164734446551 -1970.5999999995076 0 ;
+	setAttr ".t" -type "double3" -12.788617277663981 4.1590845429883245 19.997003512748936 ;
+	setAttr ".r" -type "double3" 350.06164734440796 -2192.5999999991632 9.4383810074399791e-016 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "927B0EAE-41F2-ED42-BFE7-8082B6988BA2";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 52.343887120738806;
+	setAttr ".coi" 24.098275158149654;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
